@@ -3,9 +3,14 @@
 
 {% block content %}
 
-{% for section in sections %}
-	{% include section.file %}
+{% for card in cards %}
+	{% include card.file %}
 {% endfor %}
+
+
+<!-- {% for section in sections %}
+	{% include section.file %}
+{% endfor %} -->
 
 
 {% endblock %}
