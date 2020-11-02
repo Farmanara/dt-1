@@ -2,15 +2,14 @@
 {% load static %}
 
 {% block content %}
-{% comment %}
+
  {% for card in cards %}
 	{% include card.file %}
 {% endfor %} 
 
-
+{% comment %} 
 {% for section in sections %}
 	{% include section.file %}
-{% endfor %}
-{% endcomment %}
+{% endfor %} {% endcomment %}
 
 {% endblock %}
