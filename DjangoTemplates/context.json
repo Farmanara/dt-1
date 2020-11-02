@@ -999,7 +999,7 @@
                         "class": "tab-pane active show",
                         "id": "tab-1",
                         "cards": [
-                            {
+                            {   "file":"DjangoTemplates/templates/dt1_template/cards/details1.html",
                                 "ribbon": {
                                     "class": "ribbon ribbon-top-left text-danger",
                                     "span_class": "bg-danger",
